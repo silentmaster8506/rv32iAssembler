@@ -1,0 +1,4 @@
+loop: beq ra,sp,0
+sub ra,ra,sp
+jal zero,loop
+beq x0,x0,0
